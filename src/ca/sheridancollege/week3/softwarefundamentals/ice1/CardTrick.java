@@ -16,7 +16,12 @@ import java.util.Scanner;
 public class CardTrick {
     
     public static void main(String[] args)
-    {
+    {   
+        
+        Card luckyCard = new Card();
+        luckyCard.setValue(7);
+        luckyCard.setSuit(Card.SUITS[1]);
+        
         Card[] magicHand = new Card[7];
         Random rand = new Random();
 
