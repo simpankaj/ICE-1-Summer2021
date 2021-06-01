@@ -24,6 +24,7 @@ public class Card {
      * @return the suit
      */
     public String getSuit() {
+        // test
         return suit;
     }
 
